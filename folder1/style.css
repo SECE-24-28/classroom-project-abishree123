@@ -1,0 +1,85 @@
+/*
+    1. universal selector
+    *{
+        border: 1px solid red;
+    }
+
+    tag selector
+    h1{
+        background-color:green;
+    }
+
+    id selector #
+    #a{
+        color:red;
+        background-color:yellow;
+    }
+
+    class selector .
+    .b{
+        color:blue;
+        border:10px solid;
+    }
+
+    group selector ,
+    h1,h2{
+        color:blueviolet;
+    }
+
+    descendent selector
+    div p{
+        color:red;
+        background-color: yellow;
+    }
+
+    attribute selector
+    button[type="submit"]{
+        color:red;
+        font-size:32px;
+    }
+    button[type="reset"]{
+        color:red;
+        font-size:32px;
+    }
+*/
+/*pseudo class:*/
+/*li:nth-child(2){
+    color:red;
+    font-size:24px;
+}*/
+/*li:hover{
+    color:yellow;
+    background-color:red;
+    font-size:38px;
+}*/
+
+/*differnt*/
+/*pseudo elements :: */
+#r ::before{
+    content:"Wriiten by css";
+}
+.b::first-letter{
+    font-size:48px;
+    color:red;
+}
+#q{
+    display:black;
+}
+#q::first-letter{
+    font-size:48px;
+    color:pink;
+}
+
+/*differnt*/
+*{
+    padding:0;
+    margin:0;
+}
+/*box model*/
+h1:nth-child(1){
+    border:3px solid red;
+    /* padding :30px;*/
+    /*top right bottom left*/
+    /*paddin :10px 20px 30px 40px 60 px:*/
+    
+}
