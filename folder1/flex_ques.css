@@ -1,0 +1,43 @@
+.flexContainer{
+    border:1px aqua;
+    display:flex;
+    height:10vh;
+    gap:20px;
+    padding:10px;
+    border:1px solid black;
+    align-content:flex-start;
+    
+
+}
+
+.flexItem{
+    background-color: lightblue;
+    font-size: 24px;
+    color:black;
+    height:60px;
+    width:80px;
+    padding:10px;
+    border:1px solid black;
+}
+
+.q{
+    margin-bottom:5px;
+    border-bottom:1px solid black;
+    padding-bottom:1px;
+}
+
+.m{
+   margin-bottom:5px;
+    border-bottom:1px solid black;
+    padding-bottom:1px;
+}
+
+.flexContainer1{
+    border:1px aqua;
+    display: flex;
+    width:50px;
+
+}
+.flexItem1{
+
+}
