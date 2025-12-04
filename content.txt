@@ -1,0 +1,58 @@
+undefined-->exceution-->hoisting
+console.log(a)
+//hoisting
+var a=10;
+console.log(a)
+
+//ES6
+//let and const
+console.log(b)  -->
+//refernce error
+//temporal dead zone  -->time space btwen exceution and global scope
+let b=20;
+b=130;  -->yes we can redeclare in let
+//block scope {
+            //    }
+console.log(b)
+{
+    var a=30;   
+    console.log(a)
+}
+console.log(a);
+
+
+console.log(c); //this means refernce error
+const c=4;
+c=70;  //cannot redeclare const
+//type error
+console.log(c);
+
+namedfunc();  // value will come ..coz func is called before initialization
+functions
+1.named functions
+//function declaration
+function namedfunc(){
+    console.log(namedfunc called);
+    console.log(namedfunc called);
+}
+//function called
+namedfunc(); 
+funcExp();  // type error ->var   by using let->reference error
+
+2.function expresion
+let funcExp=function(){
+    console.log(function exception called);
+};
+funcExp();
+
+3.arrow function(ES6)
+let arrow=()=>{
+    console.log(arrow function called);
+};
+arrow();
+
+4.callback function and 5.IIFE(immediatley invoked function expression)
+
+while calling arrow()..in iife we can use (()=>{
+    console.log(callback and iife called function called);
+})();
