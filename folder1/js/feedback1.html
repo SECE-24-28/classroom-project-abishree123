@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style> 
+        body{
+            height:100px;
+            display:flex;
+            padding-top:20px;
+            background-color: lightcyan;
+            align-items: center;
+            flex-direction: column;
+        }
+        form{
+            width:300px;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding:30px;
+            flex-direction: column;
+            border-radius: 6px;
+
+        }
+        div{
+            background-color: red;
+        }
+        .aa{
+            border: 1px solid white;
+        }
+        #output{
+            display:flex;
+            gap: 10px;
+        }
+        .q{
+            background-color: red;
+            border-radius: 8px;
+            display: grid;
+            gap:10px;
+        }
+
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./assignment.js" defer ></script>
+</head>
+<body>
+<h2>Student Feedback Form</h2>
+
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Enter your name" required />
+
+      <select id="course" required>
+        <option value="">Select Course</option>
+        <option>HTML & CSS</option>
+        <option>JavaScript</option>
+        <option>React JS</option>
+        <option>Node JS</option>
+      </select>
+
+      <label>Rating (1 to 5):</label>
+      <input type="range" id="rating" min="1" max="5" value="3" />
+
+      <textarea
+        id="feedback"
+        placeholder="Write your feedback..."
+        required
+      ></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+
+    <div id="output"></div>
+</body>
+</html>

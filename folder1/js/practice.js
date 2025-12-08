@@ -111,6 +111,7 @@ const createFruitArray = (...fruits) => {
   let arr = fruits.length === 0 ? ["apple", "banana"] : fruits;
   console.log(arr);
 };
-createFruitArray();       // ["apple", "banana"]
+createFruitArray();     // ["apple", "banana"]
 createFruitArray("Mango", "Kiwi");  // ["Mango", "Kiwi"]
 
+                              
