@@ -1,8 +1,10 @@
 .App {
-  font-family: "Press Start 2P", sans-serif;
-  color: #eee;
-  background-color: #222;
+   text-align: center;
+  /*font-family: "Press Start 2P", sans-serif;
+  /*color: #eee;
+  /*background-color: #222; */
 }
+/*
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 * {
@@ -18,10 +20,12 @@ html {
 
 body {
  
-  /* background-color: #60b347; */
+  /* background-color: #60b347; 
 }
+ 
 
 /* LAYOUT */
+/*
 header {
   position: relative;
   height: 35vh;
@@ -49,6 +53,7 @@ main {
 }
 
 /* ELEMENTS STYLE */
+/*
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -119,7 +124,7 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
-}
+} */
 /*
 .App-logo {
   height: 40vmin;
@@ -149,13 +154,12 @@ h1 {
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg); 
+    transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
 }*/
-
 .Container
 {
   border:2px solid red;
