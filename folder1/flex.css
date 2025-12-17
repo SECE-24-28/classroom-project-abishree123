@@ -1,0 +1,37 @@
+.flexContainer{
+    border: 1px solid red;
+   display:flex; 
+   /* height:90vh;*/
+    /*justify-content:center;*/  /* main axis*/ 
+   /* align-items:center; */    /* cross axis*/
+  /* gap:10px;*/
+/*   flex-direction:row-reverse;*/
+   /* justify-content:flex-end;*/
+    align-items:center;
+    /* for many flex    wrap,no wrap,wrap-reverse*/
+    /* flex-wrap:wrap;*/
+    /*align-content:flex-start;*/ /*to adjust the flex   center  no default value*/
+}
+
+/*values--> flex-start,end,center,space-around,space-between,space-evenly*/
+
+.flexItem{
+    background-color: yellow;
+    border:2px solid red;
+    color:red;
+    font-size:24px;
+    height:60px;
+   width:80px;
+}
+
+/* values of flex direction
+row,column,row-reverse,column-reverse*/
+
+/*values of align items
+flex-start,flex-end,center,base-line*/
+
+/* to change the value of flex or interchange or swap*/
+.flexItem:nth-child(6){
+     order:-1;
+     align-self:flex-end;
+}
